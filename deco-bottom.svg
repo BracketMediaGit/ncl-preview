@@ -4,19 +4,19 @@
 <rect x="1.5" y="0.5" width="29" height="29" stroke="#9DC8FF" stroke-opacity="0.4"/>
 </mask>
 <g mask="url(#mask0_81_5)">
-<line x1="13.3536" y1="-13.1464" x2="-76.6464" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="18.6036" y1="-13.1464" x2="-71.3964" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="23.8536" y1="-13.1464" x2="-66.1464" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="29.1036" y1="-13.1464" x2="-60.8964" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="34.3536" y1="-13.1464" x2="-55.6464" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="39.6036" y1="-13.1464" x2="-50.3964" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="44.8536" y1="-13.1464" x2="-45.1464" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="50.1036" y1="-13.1464" x2="-39.8964" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="55.3536" y1="-13.1464" x2="-34.6464" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="60.6036" y1="-13.1464" x2="-29.3964" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="65.8536" y1="-13.1464" x2="-24.1464" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="71.1036" y1="-13.1464" x2="-18.8964" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
-<line x1="76.3536" y1="-13.1464" x2="-13.6464" y2="76.8536" stroke="#59BDFF" stroke-opacity="0.7"/>
+<line x1="13.3536" y1="-13.1464" x2="-76.6464" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="18.6036" y1="-13.1464" x2="-71.3964" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="23.8536" y1="-13.1464" x2="-66.1464" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="29.1036" y1="-13.1464" x2="-60.8964" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="34.3536" y1="-13.1464" x2="-55.6464" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="39.6036" y1="-13.1464" x2="-50.3964" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="44.8536" y1="-13.1464" x2="-45.1464" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="50.1036" y1="-13.1464" x2="-39.8964" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="55.3536" y1="-13.1464" x2="-34.6464" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="60.6036" y1="-13.1464" x2="-29.3964" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="65.8536" y1="-13.1464" x2="-24.1464" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="71.1036" y1="-13.1464" x2="-18.8964" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
+<line x1="76.3536" y1="-13.1464" x2="-13.6464" y2="76.8536" stroke="#018EDD" stroke-opacity="0.7"/>
 </g>
 <line x1="0.5" y1="-2.18557e-08" x2="0.50006" y2="1380" stroke="#D1D1D1"/>
 </svg>
