@@ -147,6 +147,9 @@
     transition: opacity .6s .4s;
   }
   .hero[data-stage="5"] .deco-3 { opacity: 1; }
+  /* invert deco img elements on dark-background stages */
+  .hero[data-stage="2"] .deco,
+  .hero[data-stage="3"] .deco { filter: brightness(0) invert(1); }
 
   /* ---- word stages ---- */
   .hero-words {
