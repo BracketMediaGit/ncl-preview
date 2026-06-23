@@ -104,15 +104,14 @@
     transition: color .6s;
   }
   .hero[data-stage="2"] .hero-header,
-  .hero[data-stage="3"] .hero-header { color: #fff; --logo-accent: #fff; }
-  .hero[data-stage="3"] .hero-header { --logo-dark: #fff; }
+  .hero[data-stage="3"] .hero-header { color: #fff; --logo-accent: #fff; --logo-dark: #fff; }
 
   .hero-press {
     position: absolute;
     top: 38px; right: 42px;
     z-index: 10;
-    margin-top: 0;
   }
+  .btn.hero-press { margin-top: 0; }
 
   /* Figma decorative assets */
   .deco {
@@ -296,7 +295,7 @@
     font-weight: 600;
     font-size: clamp(19px, 2.1vw, 28px);
     line-height: 1.32;
-    max-width: 58ch;
+    max-width: 60ch;
   }
   .mission h3 .hl { color: var(--blue); }
 
@@ -310,12 +309,13 @@
     margin: 0 auto;
     padding: 70px 6vw 46px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    gap: 24px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
   }
-  .footer-inner .copy { color: var(--gray); font-size: 10px; }
+  .footer-inner .footer-logo { width: 560px; height: auto; display: block; }
+  .footer-inner .copy { color: var(--gray); font-size: 10px; text-align: center; }
 
   /* simple scroll-in for sections */
   .fade-up {
@@ -377,7 +377,7 @@
 
   <div class="hero-panel"></div>
 
-  <a class="btn hero-press" href="#contact">Press Inquire</a>
+  <a class="btn hero-press" href="#contact">Contact Us</a>
 
   <header class="hero-header">
     <a class="logo-svg-wrap" href="#hero" aria-label="Trust &amp; Legitimacy Project — NC Law Enforcement">
@@ -395,7 +395,7 @@
 
     <div class="stage stage-2" data-step="2">
       <h1 class="display">
-        <span class="reveal">Equal Justice</span>
+        <span class="reveal">Rule of Law</span>
       </h1>
     </div>
 
@@ -413,7 +413,7 @@
     </div>
 
     <div class="stage stage-5" data-step="5">
-      <img class="display final-svg" src="hero.svg" alt="We believe in Equal Justice, Public Trust & Constitutional Accountability">
+      <img class="display final-svg" src="hero.svg" alt="We believe in Rule of Law, Public Trust & Constitutional Accountability">
     </div>
 
   </div>
@@ -426,13 +426,9 @@
 <section class="section who fade-up">
   <img class="deco deco-bottom" src="deco-bottom.svg" alt="">
   <p class="eyebrow mono">Who we are</p>
-  <h2>Respected leaders from across
-    North Carolina's law enforcement community.
-    Law enforcement leaders united
-    to defend the rule of law, public trust,
-    and constitutional accountability</h2>
+  <h2>Respected leaders from across <br>North Carolina's law enforcement community. <br>United by a shared commitment <br>to constitutional policing, professional <br>integrity and service to the public.</h2>
   <p class="serif-note">When difficult issues arise, we provide a trusted voice grounded in facts, experience, and constitutional principles.</p>
-  <a class="btn" href="#contact">Press Inquire</a>
+  <a class="btn" href="#contact">Contact Us</a>
 </section>
 
 <!-- ================= MISSION ================= -->
@@ -441,10 +437,7 @@
   <div class="mission">
     <div class="quote-mark">&ldquo;</div>
     <div>
-      <h3>At a time of rising political violence, threats against public officials, and increasing
-        attempts to politicize law enforcement for partisan gain, <span class="hl">The Trust &amp; Legitimacy
-        Project</span> exists to reaffirm the true meaning of the rule of law: equal justice, constitutional
-        accountability, and public safety free from political intimidation or extremism.</h3>
+      <h3>As political violence rises and efforts to politicize law enforcement grow, principled leadership matters. The <span class="hl">Trust & Legitimacy</span> Project exists to defend the rule of law, strengthen public trust and promote constitutional accountability and public safety free from political interference and extremism.</h3>
       <p class="serif-note">Our members believe that law enforcement leaders have both the credibility and the responsibility to speak clearly when these principles are threatened.</p>
     </div>
   </div>
@@ -453,7 +446,7 @@
 <!-- ================= FOOTER ================= -->
 <footer id="contact">
   <div class="footer-inner">
-    <svg class="logo-svg logo-svg--footer"><use href="#tlp-logo"/></svg>
+    <img class="footer-logo" src="Alternate Logo.svg" alt="NC Law Enforcement Trust &amp; Legitimacy Project">
     <p class="copy mono">&copy; 2026 NC Law Enforcement Trust &amp; Legitimacy Project</p>
   </div>
 </footer>
